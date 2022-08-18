@@ -1,0 +1,11 @@
+
+
+
+
+
+    <form action="" method="post">
+    {% csrf_token %}
+    {{ form  }}
+    <button class="btn-success" type="submit">Signup</button>
+    </form>
+    <a href="{% url 'login' %}">Login</a>
